@@ -48,6 +48,9 @@ spring:
       properties:
         path:
           home: target/elasticsearch
+  elasticsearch:
+    rest:
+      uris: http://localhost:9200
   mail:
     host: localhost
     port: 25
